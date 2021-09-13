@@ -1,0 +1,2 @@
+img{width:400px;height:400px}.template{background-color:#dfdfdf;display:grid;grid-template-columns:repeat(4,1fr);width:100vw;height:100vh;padding:100px}.template>div{margin:20px;box-shadow:20px 20px 45px #727272}.image,.template>div{width:400px;height:400px;border-radius:10px}.image{background-size:cover;background-position:50%}.App h1{text-align:center;margin:10px}.meme img{width:auto;height:500px;border:1px solid #000}.meme{text-align:center}.meme button,.meme input{margin:10px;padding:5px}
+/*# sourceMappingURL=main.88f4fd56.chunk.css.map */
