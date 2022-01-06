@@ -30,7 +30,7 @@ const Meme = (props) => {
     //   console.log(arr); to understand the map warning.
 
     caption_image.boxes.map((box, index) => {
-      if (box && box.text){
+      if (box && box.text) {
         const text = box.text === "" ? "%20" : box.text;
         return (url += `&boxes[${index}][text]=${text}`);
       }
@@ -84,7 +84,9 @@ const Meme = (props) => {
           <div>
             <Button
               variant="outlined"
-              color="secondary"
+              style={{
+                backgroundColor: "#93FFD8",
+              }}
               onClick={() => {
                 props.setMeme(false);
               }}

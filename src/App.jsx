@@ -25,6 +25,7 @@ const Memer = () => {
   return (
     <div>
       <h1>Meme Generator</h1>
+
       {!meme ? (
         <Template templates={templates} setMeme={setMeme} />
       ) : (

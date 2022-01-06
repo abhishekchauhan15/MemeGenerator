@@ -10,8 +10,11 @@ export default function MemeGenerator_gallery(props) {
           <div key={template.id} className="meme_Template">
             <img loading="lazy" src={template.url} alt="MemeImg" />
             <Button
+              className="btn"
               variant="outlined"
-              color="primary"
+              style={{
+                backgroundColor: "#CFFFDC",
+              }}
               onClick={(e) => {
                 //   console.log(template);
                 setMeme(template);
